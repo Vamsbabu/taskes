@@ -1,0 +1,182 @@
+.header{
+    display: flex;
+    border: 1px snow;
+   
+   
+    width: 90%;
+   
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.mainheader{
+    margin-inline-start: 12%;
+   
+}
+.header,span{
+    margin-top: 10px;
+    display: flex;
+    font-style:italic;
+    margin-left: 10%;
+
+}
+.header, nav,a{
+    display: flex;
+   align-items: center;
+   text-decoration: none;
+   color: black;
+   justify-content: space-evenly;
+   padding: 5px;
+   margin-left: 1%;
+   
+  
+}
+hr{
+    width: 90%;
+}
+h1{
+    margin-inline-start: 25%;
+    display:flex;
+
+}
+#p{
+     margin-inline-start: 25%;
+     
+   
+}
+.hero img{
+    position:absolute;
+    margin-left: 80%;
+    width: 100px;
+    border-radius: 70%;
+    margin-top:-7%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#my{
+   
+    margin-inline-start: 25%;
+    color: rgb(246, 240, 240);
+    background-color: black;
+    border-radius: 5px;
+ 
+}
+
+.static{
+    padding-left: 12px ;
+    margin-top: 50px;
+    margin-inline-start: 25%;
+    border: 1px solid gray;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.dynamic{
+    padding-left: 12px;
+      margin-top: 50px;
+    margin-inline-start: 25%;
+    border: 1px solid gray;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.last{
+    margin-top: 30px;
+    margin-left: 25%;
+    border: 2px solid gray;
+    width: 60%;
+    padding-left: 12px;
+    border-radius: 10px;
+}
+.last p{
+    margin-inline-start: 15px;
+}
+.idea{
+    width: 90%;
+    height: 100px;
+    border-radius: 5px;
+    
+}
+
+input{
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    
+}
+::placeholder{
+    color: black;
+}
+ button{
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin:  10px ;
+}
+.box,h2,span{
+    display: flex;
+    justify-content: center;
+}
+ .box1 span{
+    margin-top:-20px;
+}
+.box2 span{
+    margin-top:-20px;
+}
+.box1{
+    background-color: rgb(128, 176, 243);
+    width: 300px;
+    height: 300px;
+    margin-left: 25%;
+    padding: 15px;
+     border-radius: 10px;
+    margin-top: 50px;
+}
+.box1 img{
+    
+    z-index: 10px;
+    width: 70px;
+  display: flex;
+  position: relative;
+  margin-top: -300px;
+  border-radius: 50%;
+  margin-inline-start: 40%;
+  height: 50px;
+}
+.box2 img{
+    z-index: 10px;
+    width: 70px;
+  display: flex;
+  position: relative;
+  margin-top: -285px;
+  border-radius: 50%;
+  margin-inline-start: 40%;
+  height: 50px;
+}
+.box2{
+    
+    background-color: rgb(235, 182, 9);
+    width: 300px;
+    height: 300px;
+    margin-left: 10%;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 10px;
+   
+    
+   
+}
+.cards{
+    display: flex;
+   align-items: center;
+}
+#dy{
+    margin-right: 70%;
+} 
+#st{
+   margin-right: 80%;
+}
+#let{
+   margin-right: 70%;
+}
+#na{
+    margin-left: 500px;
+}
