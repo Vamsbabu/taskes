@@ -1,0 +1,135 @@
+.header{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    
+    
+
+}
+h2{
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.menu{
+    display: flex;
+    
+    justify-content: space-around;
+   
+    margin-top: 25px;
+}
+
+a{
+  
+    color: whitesmoke;
+   text-decoration: none;
+   margin-right: 100px;
+   
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+}
+.card1{
+    width: 400px;
+    padding: 10px;
+    background-color: blue;
+    color: whitesmoke;
+    margin: 10px;
+}
+.card2{
+    padding: 10px;
+    width: 400px;
+    background-color: blue;
+    color: whitesmoke;
+    margin: 10px;
+}
+.card3{
+    padding: 10px;
+   width: 400px;
+    background-color: blue;
+    color: whitesmoke;
+    margin: 10px;
+}
+.card4{
+padding: 10px;
+ flex-grow: 100;
+    background-color: rgb(112, 112, 172);
+    color: whitesmoke;
+    margin: 10px;
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    color: whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.menufooter{
+    display: flex;
+  list-style: none;
+    
+    
+}
+@media (max-width:900px) {
+    .product{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card1,.card2,.card3,.card4{
+        width: 90%;
+    }
+    h2{
+        justify-content: center;
+    }
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        flex-direction: row;
+    }
+    a{
+        margin: 10px;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    .menufooter{
+        text-align: center;
+        flex-direction: row;
+        display: flex;
+        
+    }
+    
+} 
+@media (max-width:400px){
+    .header{
+        flex-direction:column;
+        align-items: center;
+    }
+    .menu{
+        flex-direction: row;
+        align-items: center;
+        display: block;
+        margin-top: -5px;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menufooter{
+        flex-direction: row;
+        display: block;
+        align-items: center;
+    }
+}
+
+
+
